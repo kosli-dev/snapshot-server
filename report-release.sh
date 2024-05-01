@@ -22,10 +22,10 @@ for file in server/*; do
         --artifact-type file \
         --build-url https://exampleci.com \
         --name $artifact_name \
-        --flow FLOW_ID \
+        --flow $FLOW_ID \
         --trail $TRAIL_ID \
         --commit-url "https://github.com/" \
-        --commit "1234567890" \
+
 
 
 done
