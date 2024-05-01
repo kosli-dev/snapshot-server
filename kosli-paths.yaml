@@ -1,0 +1,8 @@
+version: 1
+artifacts:
+  service-a:
+    path: server/a.jar
+  service-b:
+    path: server/b.jar
+  service-c:
+    path: server/c.ear
